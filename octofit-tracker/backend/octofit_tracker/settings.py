@@ -1,3 +1,6 @@
+# Codespace Django REST API endpoint（用于前端自动拼接API地址）
+import os
+API_CODESPACE_SUFFIX = os.environ.get('CODESPACE_NAME', '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]') + '-8000.app.github.dev/api/'
 """
 Django settings for octofit_tracker project.
 
